@@ -1,0 +1,130 @@
+.chat-background {
+  background: #ffffff;
+  width: 60%;
+  margin: 5% 20%;
+  margin-top: 6vh;
+  box-shadow: 0px 0px 10px #000000;
+}
+p {
+  margin: 0px;
+}
+.heading {
+  background: #2cd548;
+  padding: 8px 8px;
+  display: flex;
+}
+@media only screen and (max-width: 1000px) {
+  .chat-background {
+    width: 100%;
+    margin: 0%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .heading {
+    display: block;
+  }
+}
+.main-title {
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 1px 3px 1px #00000088;
+}
+.typing-text {
+  font-size: 12px;
+  margin: -4px 0px;
+  margin-bottom: 0px;
+  color: #00000086;
+}
+.chat-area {
+  height: 60vh;
+  padding: 15px 15px;
+  padding-bottom: 20px;
+  overflow-y: scroll;
+  position: relative;
+  flex-direction: column-reverse;
+
+  /* overflowY: 'scroll';
+  border:'1px solid red',
+  width:'500px',
+  float: 'left',
+  height:'500px',
+  position:'relative' */
+}
+.cardBody {
+  background: #fff;
+  flex-direction: column-reverse;
+}
+.type-area {
+  background: #503e85;
+  padding: 15px 20px;
+  display: flex;
+}
+.message-box {
+  padding: 2px 25px;
+  border-radius: 50px;
+  width: 90%;
+  background: #ffffff;
+  display: flex;
+  padding-right: 6px;
+}
+.message-type-area {
+  font-size: 18px;
+  border: 0px solid black;
+  width: 95%;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.mic-btn {
+  border-radius: 100px;
+  padding: 4px 12px;
+  border: 2.5px solid #503e85;
+}
+.send-btn {
+  border-radius: 100px;
+  padding: 6px 8px;
+  border: 3px solid #503e85;
+  margin-left: 10px;
+}
+.hsenid-logo {
+  border-radius: 8px;
+  margin-right: 12px;
+  height: 50px;
+}
+
+.left-single-message-box {
+  background: #41df5b;
+  padding: 3px 10px;
+  padding-top: 2px;
+  border-radius: 0px 10px 10px 10px;
+  margin: 5px;
+  color: #ffffff;
+}
+.left-single-message {
+  max-width: 100%;
+}
+.right-single-message-box {
+  background: #9983dc;
+  padding: 3px 10px;
+  padding-top: 2px;
+  border-radius: 10px 0px 10px 10px;
+  margin: 5px;
+  color: #ffffff;
+}
+.right-single-message {
+  max-width: 100%;
+}
+.sender-icon {
+  margin: 5px;
+}
+.option-button {
+  margin: 8px 5px;
+  padding: 5px 12px;
+  border-radius: 10px;
+  border: 0px solid white;
+  margin-top: 10px;
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c6f6cd41.css",
+    "main.js": "/static/js/main.6f87220d.js",
+    "static/js/787.8fb4aeac.chunk.js": "/static/js/787.8fb4aeac.chunk.js",
+    "static/media/hSenid_logo.jpg": "/static/media/hSenid_logo.2dd71ecf7b75a4af0af1.jpg",
+    "static/media/icn.png": "/static/media/icn.89b7b4c732932e09ae8c.png",
+    "index.html": "/index.html",
+    "main.c6f6cd41.css.map": "/static/css/main.c6f6cd41.css.map",
+    "main.6f87220d.js.map": "/static/js/main.6f87220d.js.map",
+    "787.8fb4aeac.chunk.js.map": "/static/js/787.8fb4aeac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6f6cd41.css",
+    "static/js/main.6f87220d.js"
+  ]
+}
